@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<head>
+<title>Wynik polowania</title>
+</head>
+
+<meta charset="utf-8"/>
+
+<body background="img/Forest.jpg" bgproperties="fixed">
+<a name="link">
+<h2>Rozliczenie polowania</h2>
+
+<form action="mailto:someone@example.com" method="post" enctype="text/plain">
+
+<p>
+Wybierz łowisko w którym upolowałeś zwierzyne:<br><br>
+<select name="łowisko" size="3" multiple>
+<option value="Kantorowice" />Kantorowice
+<option value="Lubocza" />Lubocza
+<option value="Popielnik" />Popielnik
+<option value="Lesisko" />Lesisko
+<option value="Wały" />Wały
+<option value="Zbiornik" />Zbiornik
+</select>
+</p>
+<p>Wybierz gatunek upolowanej zwierzyny:<br>
+<input type="radio" name="wybór1" value="wybór1" id="y" />
+<label for="y">Jeleń</label>
+<input type="radio" name="wybór1" value="wybór2" id="z"/>
+<label for="z">Sarna</label>
+<input type="radio" name="wybór1" value="wybór3" id="w"/>
+<label for="w">Dzik</label><br>
+<input type="radio" name="wybór1" value="wybór1" id="a" />
+<label for="a">Jenot</label>
+<input type="radio" name="wybór1" value="wybór1" id="b" />
+<label for="b">Grzywacz</label>
+<input type="radio" name="wybór1" value="wybór1" id="c" />
+<label for="c">Kaczka</label
+</p>
+<p>
+<input type="text" name="miejsce" size="30"
+maxlength="50" value=""/>Wpisz wage osobnika<br>
+</p>
+<p>
+<input type="password" name="haslo" size="7"/>Podaj swój numer licencji<br>
+</p>
+<p>
+<textarea name="komentarz" rows="3" cols="40">
+W tym miejscu wpisz komentarz na temat upolowanej tuszy</textarea>
+</p>
+<p>
+<input type="checkbox" name="zaznacz" id="x">
+<label for="x">Zaznacz, jeśli zamierzasz wziąć tuszę na użytek własny</label>
+</p>
+<p>
+Dołącz zdjęcie zawierające obraz upolowanej zwierzyny<input type="file" size="20" name="plik"/><br>
+</p>
+<p>
+<input type="submit" value="Wyślij"/>
+<input type="reset" value="Resetuj"/>
+</p>
+</form>
+<a href="index.html" class="button button-light">Wróć do menu</a>
+</body>	
+</html>

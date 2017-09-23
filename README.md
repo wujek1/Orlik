@@ -1,2 +1,2 @@
-# Orlik
-Repozytorium na potrzeby projektu systemu Koła Łowieckiego
+# kurs-tworzenie-stron
+Repozytorium na potrzeby kursu
